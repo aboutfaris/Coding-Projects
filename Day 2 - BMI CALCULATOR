@@ -42,10 +42,12 @@ print(f"your score is {score}, your height is {height}, you are winning is{isWin
 
 ---
 
+age = input()
 total_years = 90 - int(age)
 annual_weeks = total_years * 52
 print(f"You have {annual_weeks} weeks left.")
 
 ---
 
+Major Projects
 
