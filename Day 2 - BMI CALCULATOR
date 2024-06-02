@@ -1,0 +1,30 @@
+two_digit_number = input()
+# 🚨 Don't change the code above 👆
+####################################
+# Write your code below this line 👇
+# Get first digit
+first_digit = int(two_digit_number[0])
+# Get Second Digit
+second_digit = int(two_digit_number[1])
+# Add the two digits
+sum_of_digits = first_digit + second_digit
+# Results
+print(sum_of_digits)
+
+---
+
+BMI Calculator 
+
+# 1st input: enter height in meters e.g: 1.65
+height = input()
+# 2nd input: enter weight in kilograms e.g: 72
+weight = input()
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+
+#Conversion
+fheight = float(height)
+fweight = float(weight)
+
+#Print
+print(int(fweight / (fheight * fheight)))
