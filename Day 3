@@ -1,23 +1,23 @@
-```Roller coaster hieght```
-print("Welcome to the rollercoaster!")
+```Roller coaster hieght``` Lesson 1
+```print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
 if height >= 120:
   print("You can ride the rollercoaster!")
 else:
-  print("Sorry, you have to grow taller before you can ride.")
+  print("Sorry, you have to grow taller before you can ride.")```
 
 ---
-
-if number % 2 == 0:
+## Odd or Even : Lesson 2
+```if number % 2 == 0:
   print("This is an even number.")
 else:
-  print("This is an odd number.")
+  print("This is an odd number.")```
 
 ---
- if/elif/else
+ ## if/elif/else
 
-print("Welcome to the rollercoaster!")
+```print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
 if height >= 120:
@@ -30,13 +30,13 @@ if height >= 120:
   else:
     print("Please Pay $12.")
 else:
-  print("Sorry, you have to grow taller before you can ride.")
+  print("Sorry, you have to grow taller before you can ride.")```
 
 ----
 
 ## BMI CALCULATOR 2.0 
 - 
-# Enter your height in meters e.g., 1.55
+```# Enter your height in meters e.g., 1.55
 height = float(input())
 # Enter your weight in kilograms e.g., 72
 weight = int(input())
@@ -55,4 +55,25 @@ elif bmi < 30:
 elif bmi < 35:
   print(f"Your BMI is {bmi}, you are obese.")
 elif bmi < 35: 
-  print(f"Your BMI is {bmi}, you are clinically obese.")
+  print(f"Your BMI is {bmi}, you are clinically obese.")```
+
+---
+
+## Leap Year Calculator
+
+```# Which year do you want to check?
+year = int(input())
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line 👇
+
+if year % 4 == 0:
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print("Leap year")
+    else:
+      print("Not leap year")
+  else:
+    print("Leap year")
+else:
+  print("Not leap year")```
