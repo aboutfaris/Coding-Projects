@@ -35,8 +35,6 @@ else:
 # Hint: Remember to import the random module first. 🎲
 import random
 random_interger = random.randint(0,1)
-Heads = 1
-Tails = 0
 if random_interger == 1:
   print("Heads")
 else:
