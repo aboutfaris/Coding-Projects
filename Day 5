@@ -39,3 +39,12 @@ if random_interger == 1:
   print("Heads")
 else:
   print("Tails")
+
+
+----
+#BANKER ROULETTE
+
+import random
+name_items = len(names)
+random_name = random.randint(0, name_items -1)
+print(names[random_name], "is going to buy the meal today!")
