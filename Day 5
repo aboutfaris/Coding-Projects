@@ -27,3 +27,17 @@ elif z >= 40 and z <= 50:
   print(f"Your score is {z}, you are alright together.")
 else:
   print(f"Your score is {z}.")
+
+---
+
+# Random Generator 
+# Write your code below this line 👇
+# Hint: Remember to import the random module first. 🎲
+import random
+random_interger = random.randint(0,1)
+Heads = 1
+Tails = 0
+if random_interger == 1:
+  print("Heads")
+else:
+  print("Tails")
