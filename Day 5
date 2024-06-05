@@ -44,7 +44,9 @@ else:
 ----
 #BANKER ROULETTE
 
-import random
+```import random
 name_items = len(names)
 random_name = random.randint(0, name_items -1)
-print(names[random_name], "is going to buy the meal today!")
+print(names[random_name], "is going to buy the meal today!")```
+
+https://stackoverflow.com/questions/45106084/generate-a-random-index-from-list-which-does-not-include-one-specific-index
