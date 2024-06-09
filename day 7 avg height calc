@@ -1,0 +1,17 @@
+## Average Calculator
+
+
+student_heights = input().split()
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+
+totalheight = 0
+for height in student_heights:
+  totalheight += height
+print(f"total height = {totalheight}")
+totalstudent = 0
+for height in student_heights:
+  totalstudent += 1
+print(f"number of students = {totalstudent}")
+averageheight = totalheight / totalstudent
+print(f"average height = {(int(round(averageheight)))}")
