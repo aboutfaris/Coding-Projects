@@ -28,3 +28,12 @@ for score in student_scores:
   if score > highest:
     highest = score
 print(f"The highest score in the class is: {highest}")
+
+---
+# Adding even numbers
+
+target = int(input())
+sum = 0
+for number in range(2, target + 1, 2): 
+  sum += number
+print(sum)
