@@ -63,3 +63,35 @@ for char in password_list:
   password += char
 
 print(f"Your Password Is {password}")```
+
+
+--- 
+Robot instruction challenge
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def spin():
+    turn_left()
+    turn_left()
+    turn_left()
+    turn_left()
+
+def challenge():
+    turn_left()
+    move()
+    turn_right()
+    spin()
+    move()
+    turn_right()
+    spin()
+    move()
+    turn_right()
+    spin()
+    move()
+    spin()
+
+challenge()
