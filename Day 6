@@ -21,7 +21,7 @@ print(f"{line1}\n{line2}\n{line3}")
 
 ---
 
-<h1>Rock Paper Scissors Game<h/1>
+## Rock Paper Scissors Game
 
 rock = '''
     _______
@@ -67,10 +67,10 @@ else:
     print(games_images[computer_choice])
     # Conditions
 if computer_choice == 2 and user_choice == 0:
-    print("You wins!")
+    print("You win!")
 elif computer_choice > user_choice:
-    print("You wins!")
-elif computer_choice > user_choice:
-    print("You lose")
+    print("You win!")
+elif computer_choice < user_choice:
+    print("You lose!")
 elif computer_choice == user_choice:
-    print("Its a draw")
+    print("It's a draw")
