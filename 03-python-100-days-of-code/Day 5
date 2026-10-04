@@ -1,0 +1,56 @@
+# Love Calculator
+
+print("The Love Calculator is calculating your score...")
+name1 = input() # What is your name?
+name2 = input() # What is their name?
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+combinednames = name1 + name2
+lowernames = combinednames.lower()
+t = lowernames.count("t")
+r = lowernames.count("r")
+u = lowernames.count("u")
+e = lowernames.count("e")
+firstdigit = t + r + u + e
+l = lowernames.count("l")
+o = lowernames.count("o")
+v = lowernames.count("v")
+e = lowernames.count("e")
+seconddigit = l + o + v + e
+
+Lovescore = int(str(firstdigit) + str(seconddigit))
+z = Lovescore
+# Conditions
+if z < 10 or z > 90:
+  print(f"Your score is {z}, you go together like coke and mentos.")
+elif z >= 40 and z <= 50:
+  print(f"Your score is {z}, you are alright together.")
+else:
+  print(f"Your score is {z}.")
+
+---
+
+# Random Generator 
+# Write your code below this line 👇
+# Hint: Remember to import the random module first. 🎲
+import random
+random_interger = random.randint(0,1)
+if random_interger == 1:
+  print("Heads")
+else:
+  print("Tails")
+
+
+----
+#BANKER ROULETTE
+
+```import random
+# Get the total number of items in list.
+name_items = len(names)
+# Generate random numbers between 0 and the last index. 
+random_name = random.randint(0, name_items -1)
+# Choose and print a random name.
+print(names[random_name], "is going to buy the meal today!")```
+
+https://stackoverflow.com/questions/45106084/generate-a-random-index-from-list-which-does-not-include-one-specific-index
+

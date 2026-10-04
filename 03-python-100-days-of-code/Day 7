@@ -1,0 +1,47 @@
+## Average Calculator
+
+
+student_heights = input().split()
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+
+totalheight = 0
+for height in student_heights:
+  totalheight += height
+print(f"total height = {totalheight}")
+totalstudent = 0
+for height in student_heights:
+  totalstudent += 1
+print(f"number of students = {totalstudent}")
+averageheight = totalheight / totalstudent
+print(f"average height = {(int(round(averageheight)))}")
+
+---
+## Highest Calculator
+
+
+student_scores = input().split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+highest = 0
+for score in student_scores:
+  if score > highest:
+    highest = score
+print(f"The highest score in the class is: {highest}")
+
+---
+# Adding even numbers
+
+target = int(input())
+sum = 0
+for number in range(2, target + 1, 2): 
+  sum += number
+print(sum)
+
+# Adding odd numbers
+target = int(input())
+sum = 0
+for number in range(1, target + 1, 2):  # Increment by 2 to get odd numbers
+    sum += number
+print(sum)
+
