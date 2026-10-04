@@ -1,11 +1,11 @@
-# Python 100 Days (Angela Yu)
+# Python 100 Days of Code (Angela Yu)
 
 My learning diary from the "100 Days of Code: The Complete Python Pro Bootcamp" course by Angela Yu, covering days 1 to 8. The `Day N` files hold my notes and exercise answers, and the `.py` files are the small projects you can run.
 
 ## What you'll use
 
 - Python 3 (no extra packages; the scripts only use the standard library)
-- A terminal opened in this repository folder
+- A terminal opened in this folder (`03-python-100-days-of-code`)
 
 ## Steps
 

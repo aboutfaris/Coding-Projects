@@ -1,4 +1,4 @@
-# WhoIsLookUp
+# WHOIS Lookup
 
 A small Python WHOIS client, written as a first reconnaissance exercise. `whois.py` opens a TCP socket to IANA's WHOIS server, sends a domain name, and prints the reply.
 
@@ -9,7 +9,7 @@ A small Python WHOIS client, written as a first reconnaissance exercise. `whois.
 
 ## Steps
 
-1. Open a terminal in this repository folder and run the script.
+1. Open a terminal in this folder (`01-whois-lookup`) and run the script.
 
    ```bash
    python3 whois.py

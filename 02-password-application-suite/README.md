@@ -5,7 +5,7 @@ A Python command-line password generator. `pass_gen.py` asks how many letters, s
 ## What you'll use
 
 - Python 3 (standard library `random` only)
-- A terminal opened in this repository folder
+- A terminal opened in this folder (`02-password-application-suite`)
 
 ## Steps
 
